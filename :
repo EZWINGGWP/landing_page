@@ -99,57 +99,22 @@ button{
   justify-content: space-between;
 }
 .section-three{
-  padding: 60px 200px;
-  background-color:#E5E7EB;
-}
-.textbox{
-  width: 800px;
   display:flex;
-  flex-direction: column;
   flex-wrap:wrap;
-  margin: 0 auto;
-}
+  flex-direction: column;
+  background-color:#E5E7EB;
+  padding-left: 200px;
+  padding-right: 200px;
 .quote{
-  color: #1F2937;
-  text-align:center;
+  flex-basis: 800px;
+  align-self: center;
   font-size: 48px;
   font-style: italic;
 }
 .sayer
 {
   align-self: flex-end;
+  margin-left: auto;
   font-size: 18px;
   font-weight: bold;
-}
-.section-four{
-  padding: 60px 200px;
-  background-color:#F9FAF8;
-}
-.card{
-  color: #F9FAF8;
-  display:flex;
-  padding: 40px 60px;
-  background-color: #3882F6; 
-  border-radius: 10px;
-}
-.card .title{
-  font-weight: bold;
-  font-size: 20px;
-}
-.button
-{
-  margin-left: auto;
-  align-self: center;
-  background-color: #3882F6; 
-  color: #F9FAF8;
-  font-weight: bold;
-  border:2px solid white;
-  font-family: inherit;
-  padding: 10px;
-  border-radius: 8px;
-}
-.foot{
-  padding: 20px 60px;
-  text-align: center;
-  background-color: #1F2937;
 }
